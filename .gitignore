@@ -1,0 +1,9 @@
+.next/
+.next-stale/
+.next-stale-2/
+.next-production/
+.next-production-2/
+node_modules/
+*.tsbuildinfo
+.env*
+!.env.example

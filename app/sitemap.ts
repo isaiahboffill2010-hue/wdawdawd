@@ -1,0 +1,1 @@
+import type { MetadataRoute } from "next"; import {projects} from "@/data/projects"; export default function sitemap():MetadataRoute.Sitemap{const base=process.env.NEXT_PUBLIC_SITE_URL||"http://localhost:3000";return ["","/projects","/awards","/skills","/about","/contact",...projects.map(p=>`/projects/${p.slug}`)].map(url=>({url:base+url,lastModified:new Date()}))}
