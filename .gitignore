@@ -3,6 +3,10 @@
 .next-stale-2/
 .next-production/
 .next-production-2/
+.next-photo-stale/
+.next-photo-stale-2/
+.next-dev-stale/
+.next-dev-stale-2/
 node_modules/
 *.tsbuildinfo
 .env*
